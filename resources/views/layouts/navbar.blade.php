@@ -1,7 +1,10 @@
 <!-- Navbar Start -->
-<nav class="navbar navbar-dark bg-primary fixed-top">
+<nav class="navbar navbar-dark bg-primary fixed-top shadow p-3 mb-5">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">PPLG_WEB</a>
+    <a class="navbar-brand" href="#">
+      <img src="{{ 'assets/img/mutu.png' }}" alt="Logo PPLG" width="30" height="30" class="d-inline-block align-text-top">
+      PPLG_WEB
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -31,6 +34,10 @@
     </div>
   </div>
 </nav>
+
+<div style="margin-bottom: 70px;">
+  .
+</div>
 <!-- Navbar End -->
 
 {{-- Content Start --}}
@@ -40,4 +47,5 @@
 <!-- Link Start -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="{{ 'assets/css/navbar.css' }}">
 <!-- Link End -->
