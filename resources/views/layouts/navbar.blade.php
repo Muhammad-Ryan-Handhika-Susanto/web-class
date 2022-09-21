@@ -35,7 +35,7 @@
   </div>
 </nav>
 
-<div style="margin-bottom: 70px;">
+<div style="margin-bottom: 60px;">
   .
 </div>
 <!-- Navbar End -->

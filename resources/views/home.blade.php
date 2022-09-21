@@ -2,10 +2,7 @@
 
 {{-- Content Start --}}
 @section('content')
-<div class="sambutan">
-  <h1>Selamat Datang di Wesite PPLG</h1>
-</div>
-<div id="carouselExampleFade" class="carousel slide carousel-fade container-fluid mt-4 mb-5" data-bs-ride="carousel">
+<div id="carouselExampleFade" class="carousel slide carousel-fade container-fluid mt-4 mb-4" data-bs-ride="carousel"> 
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="{{ 'assets/img/coba.jpeg' }}" class="d-block" alt="Gambar 1">
@@ -28,16 +25,31 @@
   </div>
 
   <div class="sambutan">
-    <h1>Bahasa Pemrograman Yang Digunakan</h1>
+    <h1>Program Pembelajaran</h1>
   </div>
 
-  <div class="img container mt-5">
-    <img src="{{ 'assets/img/coba.jpeg' }}" class="img-thumbnail ms-5 mb-4" width="300px" alt="...">
-    <img src="{{ 'assets/img/coba.jpeg' }}" class="img-thumbnail ms-5 mb-4" width="300px" alt="...">
-    <img src="{{ 'assets/img/coba.jpeg' }}" class="img-thumbnail ms-5 mb-4" width="300px" alt="...">
-    <img src="{{ 'assets/img/coba.jpeg' }}" class="img-thumbnail ms-5 mt-4" width="300px" alt="...">
-    <img src="{{ 'assets/img/coba.jpeg' }}" class="img-thumbnail ms-5 mt-4" width="300px" alt="...">
-    <img src="{{ 'assets/img/coba.jpeg' }}" class="img-thumbnail ms-5 mt-4" width="300px" alt="...">
+  <div class="PB">
+    <div class="card" style="width: 18rem;">
+      <img src="{{ 'assets/img/coba.jpeg' }}" class="card-img-top" alt="Game Developer">
+      <div class="card-body">
+        <h5 class="card-title">Web Developer</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="{{ 'assets/img/coba.jpeg' }}" class="card-img-top" alt="Game Developer">
+      <div class="card-body">
+        <h5 class="card-title">Design Grafis</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="{{ 'assets/img/coba.jpeg' }}" class="card-img-top" alt="Game Developer">
+      <div class="card-body">
+        <h5 class="card-title">Game Developer</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div>
   </div>
 @endsection
 {{-- Content End --}}
