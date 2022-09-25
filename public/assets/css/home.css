@@ -1,0 +1,41 @@
+body {
+    background-image: url(../img/coba4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sambutan h1 {
+    text-align: center;
+    color: white;
+}
+
+.carousel-inner .carousel-item img {
+    width: 100%;
+    height: 86%;
+}
+
+.img img {
+    margin-left: 50px;
+}
+
+.PB .card {
+    margin-left: 120px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+@media screen and (max-width: 480px) {
+    .carousel-inner .carousel-item img {
+        width: 100%;
+        height: 300px;
+    }
+    .img img {
+        margin-left: 35px;
+    }
+    .PB .card {
+        margin-left: 52px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+  }

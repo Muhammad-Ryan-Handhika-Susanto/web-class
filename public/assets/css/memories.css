@@ -1,0 +1,30 @@
+body {
+    background-image: url(../img/coba4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.judul h1 {
+    text-align: center;
+    color: white;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 1.5s ease;
+}
+
+.inner:hover img {
+    transform: scale(1.5);
+}
+
+@media screen and (min-width: 480px) {
+    
+}
