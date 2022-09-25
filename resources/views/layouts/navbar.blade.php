@@ -16,19 +16,19 @@
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Teachers</a>
+            <a class="nav-link" href="/teachers">Teachers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Memories</a>
+            <a class="nav-link" href="/memories">Memories</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Achievements</a>
+            <a class="nav-link" href="/achievements">Achievements</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Information</a>
+            <a class="nav-link" href="/informations">Information</a>
           </li>
       </div>
     </div>
