@@ -21,18 +21,18 @@ Route::get('/', function () {
     return view('index');
 });
 
-// Route::get('/teachers', function () {
-//     return view('teachers');
-// });
+Route::get('/teachers', function () {
+    return view('teachers');
+});
 
-// Route::get('/memories', function () {
-//     return view('memories');
-// });
+Route::get('/memories', function () {
+    return view('memories');
+});
 
-// Route::get('/achievements', function () {
-//     return view('achievement');
-// });
+Route::get('/achievements', function () {
+    return view('achievement');
+});
 
-// Route::get('/informations', function () {
-//     return view('informations');
-// });
+Route::get('/informations', function () {
+    return view('informations');
+});
