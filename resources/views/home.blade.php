@@ -24,7 +24,7 @@
     </button>
   </div>
 
-  <div class="sambutan">
+  <div class="sambutan prgm-pembelajaran">
     <h1>Program Pembelajaran</h1>
   </div>
 

@@ -10,26 +10,25 @@
   </video>
   </div>
 
-  <div class="sambutan">
+  <div class="sambutan reveal transisi-PB">
     <h1>Program Pembelajaran</h1>
-  </div>
 
   <div class="PB">
-    <div class="card home" style="width: 18rem;">
+    <div class="card home reveal PB-card1" style="width: 18rem;">
       <img src="{{ 'assets/img/coba.jpeg' }}" class="card-img-top" alt="Game Developer">
       <div class="card-body">
         <h5 class="card-title">Web Developer</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
     </div>
-    <div class="card home" style="width: 18rem;">
+    <div class="card home reveal PB-card2" style="width: 18rem;">
       <img src="{{ 'assets/img/coba.jpeg' }}" class="card-img-top" alt="Game Developer">
       <div class="card-body">
         <h5 class="card-title">Design Grafis</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
     </div>
-    <div class="card home" style="width: 18rem;">
+    <div class="card home reveal PB-card3" style="width: 18rem;">
       <img src="{{ 'assets/img/coba.jpeg' }}" class="card-img-top" alt="Game Developer">
       <div class="card-body">
         <h5 class="card-title">Game Developer</h5>
@@ -37,14 +36,17 @@
       </div>
     </div>
   </div>
+</div>
 {{-- Home Page End --}}
 
 {{-- Teachers Page Start --}}
 <div class="container sambutan">
+  <div class="reveal Teacher-Text">
     <h1>Teachers</h1>
+  </div>
     <div class="row">
         <div class="col-lg-4 col-md-6 mt-3 mb-3">
-            <div class="card rounded teachers">
+            <div class="card rounded teachers reveal Teacher-card1">
                 <div class="img">
                     <img class="img-fluid rounded-top" src="{{ 'assets/img/coba.jpeg' }}" alt="">
                     <img class="rounded-circle" src="{{ 'assets/img/coba3.jpeg' }}" width="200px" height="200px" alt="">
@@ -88,7 +90,7 @@
             </div>
         </div>
         <div class="col-lg-4 col-md-6 mt-3 mb-3">
-            <div class="card rounded teachers">
+            <div class="card rounded teachers reveal Teacher-card2">
                 <div class="img">
                     <img class="img-fluid rounded-top" src="{{ 'assets/img/coba.jpeg' }}" alt="">
                     <img class="rounded-circle" src="{{ 'assets/img/coba3.jpeg' }}" width="200px" height="200px" alt="">
@@ -132,7 +134,7 @@
             </div>
         </div>
         <div class="col-lg-4 col-md-6 mt-3">
-            <div class="card rounded teachers">
+            <div class="card rounded teachers reveal Teacher-card3">
                 <div class="img">
                     <img class="img-fluid rounded-top" src="{{ 'assets/img/coba.jpeg' }}" alt="">
                     <img class="rounded-circle" src="{{ 'assets/img/coba3.jpeg' }}" width="200px" height="200px" alt="">
@@ -294,6 +296,7 @@
 
 {{-- Link Start --}}
 <link rel="stylesheet" href="{{ 'assets/css/index.css' }}">
+<script src="{{ 'assets/js/index.js' }}"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
 {{-- Link End --}}

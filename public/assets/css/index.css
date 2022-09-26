@@ -21,9 +21,9 @@ body {
 }
 
 .PB .home {
-    margin-left: 140px;
+    margin-left: 120px;
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     float: left;
 }
 
@@ -112,6 +112,7 @@ li a {
 /* Memories Page Start */
 .container {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .inner {
@@ -132,8 +133,89 @@ li a {
 
 @media screen and (max-width: 480px) {
     .judul h1 {
-        margin-top: 20px;
+        margin-top: 30px;
         text-align: center;
     }
 }
 /* Memories Page End */
+
+/* Animasi punya dafa */
+
+.reveal {
+    opacity: 0;
+    position: relative;
+}
+
+.aktif.transisi-PB {
+    animation: transisi-PB 1.5s 1 0.1s forwards;
+}
+
+.aktif.PB-card1 {
+    animation: PB-card1 1.5s 1 0.1s forwards;
+}
+
+.aktif.PB-card2 {
+    animation: PB-card2 1.5s 1 0.1s forwards;
+}
+
+.aktif.PB-card3 {
+    animation: PB-card3 1.5s 1 0.1s forwards;
+}
+
+.aktif.Teacher-text {
+    animation: Teacher-Text 1.5s 1 0.1s forwards;
+}
+
+.aktif.Teacher-card1 {
+    animation: Teacher-card1 1.8s 1 0.1s forwards;
+}
+
+.aktif.Teacher-card2 {
+    animation: Teacher-card2 1.8s 1 0.1s forwards;
+}
+
+.aktif.Teacher-card3 {
+    animation: Teacher-card3 1.8s 1 0.1s forwards;
+}
+
+
+@keyframes transisi-PB {
+    0% {opacity: 0%; bottom: 20px;}
+    100% {opacity: 100%; bottom: 0px;}
+}
+
+@keyframes PB-card1 {
+    0% {opacity: 0%; right: 20px;}
+    100% {opacity: 100%; right: 0px;}
+  }
+
+  @keyframes PB-card2 {
+    0% {opacity: 0%; bottom: 20px;}
+    100% {opacity: 100%; bottom: 0px;}
+  }
+
+  @keyframes PB-card3 {
+    0% {opacity: 0%; left: 20px;}
+    100% {opacity: 100%; left: 0px;}
+  }
+
+  @keyframes Teacher-Text {
+    0% {opacity: 0; bottom: 20px;}
+    100% {opacity: 1; bottom: 0px;}
+  }
+
+  @keyframes Teacher-card1 {
+    0% {opacity: 0%; left: 20px;}
+    100% {opacity: 100%; left: 0px;}
+  }
+
+  @keyframes Teacher-card2 {
+    0% {opacity: 0%; bottom: 20px;}
+    100% {opacity: 100%; bottom: 0px;}
+  }
+
+  @keyframes Teacher-card3 {
+    0% {opacity: 0%; right: 20px;}
+    100% {opacity: 100%; right: 0px;}
+  }
+
