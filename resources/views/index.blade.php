@@ -288,7 +288,58 @@
     </div>
   </div>
 </div>
-{{-- Memories Page End --}}
+{{-- Memories Page End --}} 
+
+{{--Achievement start--}}
+<div class="judul sambutan">
+  <h1>PENGHARGAAN</h1>
+</div>
+
+<div class="container">
+	<div class="row">
+					<div class="col-md-4 d-flex justify-content-center align-items-center mb-2">
+				<div class="card penghargaan">
+  <img class="img-cover" src="{{'assets/img/1.jpeg'}}" alt="tidak dapat load gambar" width="100%" height="200">
+  <div class="card-body">
+    <p class="card-text">Sertifikat Lomba Teknik Desain Laman (Web Technologies) Juara 1 yang diperoleh Jovanko Alexandro</p>
+  </div>
+</div>			
+</div>
+					<div class="col-md-4 d-flex justify-content-center align-items-center mb-2">
+				<div class="card penghargaan">
+  <img class="img-cover" src="{{'assets/img/2.jpeg'}}" alt="tidak dapat load gambar" width="100%" height="200">
+  <div class="card-body">
+    <p class="card-text">Sertifikat Lomba Graphic Design Juara 1 yang diperoleh Daffa Muqsith Ismoro</p>
+  </div>
+</div>
+</div>
+					<div class="col-md-4 d-flex justify-content-center align-items-center mb-2">
+				<div class="card penghargaan">
+  <img class="img-cover" src="{{'assets/img/3.jpeg'}}" alt="tidak dapat load gambar" width="100%" height="200">
+  <div class="card-body">
+    <p class="card-text">Sertifikat Lomba Teknik Desain Laman (Web Technologies) Juara 3 yang diperoleh Jovanko Alexandro</p>
+  </div>
+</div>
+</div>
+					<div class="col-md-4 d-flex justify-content-center align-items-center mb-2">
+				<div class="card penghargaan">
+  <img class="img-cover" src="{{'assets/img/4.jpeg'}}" alt="tidak dapat load gambar" width="100%" height="200">
+  <div class="card-body">
+    <p class="card-text">Sertifikat Lomba IT Software Solution for Business Juara 1 yang diperoleh Rizqya Sanria Juliana</p>
+  </div>
+</div>
+</div>
+					<div class="col-md-4 d-flex justify-content-center align-items-center mb-2">
+				<div class="card penghargaan">
+  <img class="img-cover" src="{{'assets/img/5.jpeg'}}" alt="tidak dapat load gambar" width="100%" height="200">
+  <div class="card-body">
+    <p class="card-text">Sertifikat Lomba Teknologi Desain Grafis (Graphic Design Technology) Juara 1 yang diperoleh Daffa Muqsith Ismoro</p>
+  </div>
+</div>
+</div>	
+</div>
+</div>
+{{--achievement end--}}
 @endsection
 {{-- Content End --}}
 
