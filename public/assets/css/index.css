@@ -139,7 +139,7 @@ li a {
 }
 /* Memories Page End */
 
-/* Animasi punya dafa */
+/* Animasi punya dafa start */
 
 .reveal {
     opacity: 0;
@@ -218,4 +218,13 @@ li a {
     0% {opacity: 0%; right: 20px;}
     100% {opacity: 100%; right: 0px;}
   }
+  
+  /* Animasi punya dafa end */
 
+/*  achievement page start */
+
+    .penghargaan{
+        width: 19rem;
+    }
+
+/* achievement page end */
