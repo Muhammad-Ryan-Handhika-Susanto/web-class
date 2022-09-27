@@ -45,6 +45,10 @@ body {
 /* Home Page End */
 
 /* Teachers Page Start */
+.guru {
+    margin-bottom: 50px;
+}
+
 .teachers {
     background-color: #ddd;
     box-shadow: 1px 1px 10px  rgb(146, 143, 143);
@@ -106,6 +110,12 @@ li a {
 
 .card-title h3 {
     font-weight: bolder;
+}
+
+@media screen and (max-width: 480px) {
+    .guru {
+        margin-top: 50px;
+    }
 }
 /* Teachers Page End */
 

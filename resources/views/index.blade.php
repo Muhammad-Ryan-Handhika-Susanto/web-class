@@ -41,11 +41,11 @@
 
 {{-- Teachers Page Start --}}
 <div class="container sambutan">
-  <div class="reveal Teacher-Text">
+  <div class="reveal Teacher-Text guru">
     <h1>Teachers</h1>
   </div>
     <div class="row">
-        <div class="col-lg-4 col-md-6 mt-3 mb-3">
+        <div class="col-lg-4 col-md-6 pos">
             <div class="card rounded teachers reveal Teacher-card1">
                 <div class="img">
                     <img class="img-fluid rounded-top" src="{{ 'assets/img/coba.jpeg' }}" alt="">
@@ -89,7 +89,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-6 mt-3 mb-3">
+        <div class="col-lg-4 col-md-6 pos">
             <div class="card rounded teachers reveal Teacher-card2">
                 <div class="img">
                     <img class="img-fluid rounded-top" src="{{ 'assets/img/coba.jpeg' }}" alt="">
@@ -133,7 +133,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-6 mt-3">
+        <div class="col-lg-4 col-md-6 pos">
             <div class="card rounded teachers reveal Teacher-card3">
                 <div class="img">
                     <img class="img-fluid rounded-top" src="{{ 'assets/img/coba.jpeg' }}" alt="">
