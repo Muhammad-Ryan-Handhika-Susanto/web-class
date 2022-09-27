@@ -7,7 +7,7 @@ body {
 /* Home Page Start */
 .sambutan h1 {
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .video {
@@ -15,16 +15,12 @@ body {
     height: 88%;
 }
 
-.carousel-inner .carousel-item img {
-    width: 100%;
-    height: 88%;
-}
-
 .PB .home {
     margin-left: 120px;
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     float: left;
+    box-shadow: 1px 1px 20px  black;
 }
 
 @media screen and (max-width: 480px) {
@@ -45,13 +41,9 @@ body {
 /* Home Page End */
 
 /* Teachers Page Start */
-.guru {
-    margin-bottom: 50px;
-}
-
 .teachers {
     background-color: #ddd;
-    box-shadow: 1px 1px 10px  rgb(146, 143, 143);
+    box-shadow: 1px 1px 10px  rgba(0, 0, 0, 0.6);
 }
 
 .img img:nth-child(2) {
@@ -65,9 +57,9 @@ body {
     box-shadow: 0 0 0 7px var(--primary);
 }
 
-span {
-    font-size: 20px;
-    padding: 10px;
+span .fa {
+    font-size: 30px;
+    padding: 30px;
 }
 
 ul {
@@ -89,32 +81,13 @@ li a {
     padding-bottom: 10px;
 }
 
-[class*-fa-] {
-    transition: 0.7s;
-}
-
-.fa-facebook:hover {
-    color: #3b5999;
-    transition: 0.5s;
-}
-
-.fa-twitter:hover {
-    color: #55acee;
-    transition: 0.5s;
-}
-
-.fa-instagram:hover {
-    color: #cd201f;
-    transition: 0.5s;
-}
-
 .card-title h3 {
     font-weight: bolder;
 }
 
 @media screen and (max-width: 480px) {
-    .guru {
-        margin-top: 50px;
+    .teachers {
+        margin-bottom: 50px;
     }
 }
 /* Teachers Page End */
@@ -138,103 +111,55 @@ li a {
 }
 
 .memo{
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 @media screen and (max-width: 480px) {
-    .judul h1 {
-        margin-top: 30px;
-        text-align: center;
+    .memories h1 {
+        margin-top: -50px;
     }
 }
 /* Memories Page End */
 
-/* Animasi punya dafa start */
-
-.reveal {
-    opacity: 0;
-    position: relative;
-}
-
-.aktif.transisi-PB {
-    animation: transisi-PB 1.5s 1 0.1s forwards;
-}
-
-.aktif.PB-card1 {
-    animation: PB-card1 1.5s 1 0.1s forwards;
-}
-
-.aktif.PB-card2 {
-    animation: PB-card2 1.5s 1 0.1s forwards;
-}
-
-.aktif.PB-card3 {
-    animation: PB-card3 1.5s 1 0.1s forwards;
-}
-
-.aktif.Teacher-text {
-    animation: Teacher-Text 1.5s 1 0.1s forwards;
-}
-
-.aktif.Teacher-card1 {
-    animation: Teacher-card1 1.8s 1 0.1s forwards;
-}
-
-.aktif.Teacher-card2 {
-    animation: Teacher-card2 1.8s 1 0.1s forwards;
-}
-
-.aktif.Teacher-card3 {
-    animation: Teacher-card3 1.8s 1 0.1s forwards;
-}
-
-
-@keyframes transisi-PB {
-    0% {opacity: 0%; bottom: 20px;}
-    100% {opacity: 100%; bottom: 0px;}
-}
-
-@keyframes PB-card1 {
-    0% {opacity: 0%; right: 20px;}
-    100% {opacity: 100%; right: 0px;}
-  }
-
-  @keyframes PB-card2 {
-    0% {opacity: 0%; bottom: 20px;}
-    100% {opacity: 100%; bottom: 0px;}
-  }
-
-  @keyframes PB-card3 {
-    0% {opacity: 0%; left: 20px;}
-    100% {opacity: 100%; left: 0px;}
-  }
-
-  @keyframes Teacher-Text {
-    0% {opacity: 0; bottom: 20px;}
-    100% {opacity: 1; bottom: 0px;}
-  }
-
-  @keyframes Teacher-card1 {
-    0% {opacity: 0%; left: 20px;}
-    100% {opacity: 100%; left: 0px;}
-  }
-
-  @keyframes Teacher-card2 {
-    0% {opacity: 0%; bottom: 20px;}
-    100% {opacity: 100%; bottom: 0px;}
-  }
-
-  @keyframes Teacher-card3 {
-    0% {opacity: 0%; right: 20px;}
-    100% {opacity: 100%; right: 0px;}
-  }
-  
-  /* Animasi punya dafa end */
-
 /*  achievement page start */
+
+    .sambutan .achievement {
+        margin-top: -30px;
+    }
 
     .penghargaan{
         width: 19rem;
+        box-shadow: 1px 1px 10px  rgba(0, 0, 0, 0.6);
     }
 
 /* achievement page end */
+
+/* information page start */
+.info h1 {
+    margin-bottom: 40px;
+}
+
+.satu{
+    background-color: #3879db;
+    color: white;
+}
+
+.dua{
+    background-color: #7bbaee;
+    color: white;
+}
+
+.foto{
+    width:250px;
+}
+
+@media screen and (max-width: 480px) {
+    .overflow{
+        overflow:scroll;
+    }
+    .dua {
+        position: absolute;
+        top: 1290%;
+    }
+}
+/* information page end */
