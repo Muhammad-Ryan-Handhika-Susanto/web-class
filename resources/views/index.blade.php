@@ -325,7 +325,7 @@
 </div>
 </div>
 					<div class="col-md-4 d-flex justify-content-center align-items-center mb-3">
-				<div class="card penghargaan">
+				<div class="card penghargaan reveal Achv-card2">
   <img class="img-cover" src="{{'assets/img/4.jpeg'}}" alt="tidak dapat load gambar" width="100%" height="200">
   <div class="card-body">
     <p class="card-text">Sertifikat Lomba IT Software Solution for Business Juara 1 yang diperoleh Rizqya Sanria Juliana</p>
@@ -333,7 +333,7 @@
 </div>
 </div>
 					<div class="col-md-4 d-flex justify-content-center align-items-center mb-3">
-				<div class="card penghargaan">
+				<div class="card penghargaan reveal Achv-card2">
   <img class="img-cover" src="{{'assets/img/5.jpeg'}}" alt="tidak dapat load gambar" width="100%" height="200">
   <div class="card-body">
     <p class="card-text">Sertifikat Lomba Teknologi Desain Grafis Juara 1 yang diperoleh Daffa Muqsith Ismoro</p>
@@ -382,7 +382,7 @@
     
     </div>
   </div>
-  <div class="container text-center">
+  <div class="container text-center reveal Info-Text">
     <div class="row mt-4">
       <div class="col satu">
       <strong>INFORMASI PPLG SMK TI MUHAMMADIYAH</strong>
