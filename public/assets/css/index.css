@@ -153,6 +153,73 @@ li a {
     width:250px;
 }
 
+.aktif.Memories-Text {
+    animation: Memories-Text 1.8s 1 0.1s forwards;
+}
+
+.aktif.Memories-card1 {
+    animation: Memories-card1 1.8s 1 0.1s forwards;
+}
+
+.aktif.Memories-card2 {
+    animation: Memories-card2 1.8s 1 0.1s forwards;
+}
+
+
+@keyframes transisi-PB {
+    0% {opacity: 0%; bottom: 20px;}
+    100% {opacity: 100%; bottom: 0px;}
+}
+
+@keyframes PB-card1 {
+    0% {opacity: 0%; right: 20px;}
+    100% {opacity: 100%; right: 0px;}
+  }
+
+  @keyframes PB-card2 {
+    0% {opacity: 0%; bottom: 20px;}
+    100% {opacity: 100%; bottom: 0px;}
+  }
+
+  @keyframes PB-card3 {
+    0% {opacity: 0%; left: 20px;}
+    100% {opacity: 100%; left: 0px;}
+  }
+
+  @keyframes Teacher-Text {
+    0% {opacity: 0; bottom: 20px;}
+    100% {opacity: 1; bottom: 0px;}
+  }
+
+  @keyframes Teacher-card1 {
+    0% {opacity: 0%; left: 20px;}
+    100% {opacity: 100%; left: 0px;}
+  }
+
+  @keyframes Teacher-card2 {
+    0% {opacity: 0%; bottom: 20px;}
+    100% {opacity: 100%; bottom: 0px;}
+  }
+
+  @keyframes Teacher-card3 {
+    0% {opacity: 0%; right: 20px;}
+    100% {opacity: 100%; right: 0px;}
+  }
+
+@keyframes Memories-Text {
+    0% {opacity: 0%; bottom: 20px;}
+    100% {opacity: 100%; bottom: 0px;}
+}
+
+@keyframes Memories-card1 {
+    0% {opacity: 0%; left: 20px;}
+    100% {opacity: 100%; left: 0px;}
+}
+
+@keyframes Memories-card2 {
+    0% {opacity: 0%; right: 20px;}
+    100% {opacity: 100%; right: 0px;}
+}
 @media screen and (max-width: 480px) {
     .overflow{
         overflow:scroll;
