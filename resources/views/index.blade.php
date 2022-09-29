@@ -182,14 +182,14 @@
 {{-- Teachers Page End --}}
 
 {{-- Memories Page Start --}}
-<div class="judul sambutan">
+<div class="judul sambutan reveal Memories-Text">
     <h1>PPLG X RPL</h1>
 </div>
 
 <div class="container">
   <div class="row justify-content-center">
     <div class="col-md-6">
-      <div class="card shadow memo">
+      <div class="card shadow memo reveal Memories-card2">
         <div class="inner">
           <img src="{{ 'assets/img/coba.jpeg' }}" class="card-img-top" alt="...">
         </div>
@@ -199,7 +199,7 @@
       </div>
     </div>
     <div class="col-md-6">
-      <div class="card shadow memo">
+      <div class="card shadow memo reveal Memories-card1">
         <div class="inner">
           <img src="{{ 'assets/img/coba.jpeg' }}" class="card-img-top" alt="...">
         </div>
@@ -209,7 +209,7 @@
       </div>
     </div>
     <div class="col-md-6">
-      <div class="card shadow memo">
+      <div class="card shadow memo reveal Memories-card2">
         <div class="inner">
           <img src="{{ 'assets/img/coba.jpeg' }}" class="card-img-top" alt="...">
         </div>
@@ -219,7 +219,7 @@
       </div>
     </div>
     <div class="col-md-6">
-      <div class="card shadow memo">
+      <div class="card shadow memo reveal Memories-card1">
         <div class="inner">
           <img src="{{ 'assets/img/coba.jpeg' }}" class="card-img-top" alt="...">
         </div>
@@ -229,7 +229,7 @@
       </div>
     </div>
     <div class="col-md-6">
-      <div class="card shadow memo">
+      <div class="card shadow memo reveal Memories-card2">
         <div class="inner">
           <img src="{{ 'assets/img/coba.jpeg' }}" class="card-img-top" alt="...">
         </div>
@@ -239,7 +239,7 @@
       </div>
     </div>
     <div class="col-md-6">
-      <div class="card shadow memo">
+      <div class="card shadow memo reveal Memories-card1">
         <div class="inner">
           <img src="{{ 'assets/img/coba.jpeg' }}" class="card-img-top" alt="...">
         </div>
@@ -249,7 +249,7 @@
       </div>
     </div>
     <div class="col-md-6">
-      <div class="card shadow memo">
+      <div class="card shadow memo reveal Memories-card2">
         <div class="inner">
           <img src="{{ 'assets/img/coba.jpeg' }}" class="card-img-top" alt="...">
         </div>
@@ -259,7 +259,7 @@
       </div>
     </div>
     <div class="col-md-6">
-      <div class="card shadow memo">
+      <div class="card shadow memo reveal Memories-card1">
         <div class="inner">
           <img src="{{ 'assets/img/coba.jpeg' }}" class="card-img-top" alt="...">
         </div>
@@ -269,7 +269,7 @@
       </div>
     </div>
     <div class="col-md-6">
-      <div class="card shadow memo">
+      <div class="card shadow memo reveal Memories-card2">
         <div class="inner">
           <img src="{{ 'assets/img/coba.jpeg' }}" class="card-img-top" alt="...">
         </div>
@@ -279,7 +279,7 @@
       </div>
     </div>
     <div class="col-md-6">
-      <div class="card shadow memo">
+      <div class="card shadow memo reveal Memories-card1">
         <div class="inner">
           <img src="{{ 'assets/img/coba.jpeg' }}" class="card-img-top" alt="...">
         </div>

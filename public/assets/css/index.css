@@ -178,6 +178,18 @@ li a {
     animation: Teacher-card3 1.8s 1 0.1s forwards;
 }
 
+.aktif.Memories-Text {
+    animation: Memories-Text 1.8s 1 0.1s forwards;
+}
+
+.aktif.Memories-card1 {
+    animation: Memories-card1 1.8s 1 0.1s forwards;
+}
+
+.aktif.Memories-card2 {
+    animation: Memories-card2 1.8s 1 0.1s forwards;
+}
+
 
 @keyframes transisi-PB {
     0% {opacity: 0%; bottom: 20px;}
@@ -219,3 +231,17 @@ li a {
     100% {opacity: 100%; right: 0px;}
   }
 
+@keyframes Memories-Text {
+    0% {opacity: 0%; bottom: 20px;}
+    100% {opacity: 100%; bottom: 0px;}
+}
+
+@keyframes Memories-card1 {
+    0% {opacity: 0%; left: 20px;}
+    100% {opacity: 100%; left: 0px;}
+}
+
+@keyframes Memories-card2 {
+    0% {opacity: 0%; right: 20px;}
+    100% {opacity: 100%; right: 0px;}
+}
