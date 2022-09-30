@@ -10,25 +10,25 @@
   </video>
   </div>
 
-  <div class="sambutan">
+  <div class="sambutan reveal ProgramP-Text">
     <h1>Program Pembelajaran</h1>
 
   <div class="PB">
-    <div class="card home" style="width: 18rem;">
+    <div class="card home reveal ProgramP-card1" style="width: 18rem;">
       <img src="{{ 'assets/img/coba.jpeg' }}" class="card-img-top" alt="Game Developer">
       <div class="card-body">
         <h5 class="card-title">Web Developer</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
     </div>
-    <div class="card home" style="width: 18rem;">
+    <div class="card home reveal ProgramP-card2" style="width: 18rem;">
       <img src="{{ 'assets/img/coba.jpeg' }}" class="card-img-top" alt="Game Developer">
       <div class="card-body">
         <h5 class="card-title">Design Grafis</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
     </div>
-    <div class="card home" style="width: 18rem;">
+    <div class="card home reveal ProgramP-card3" style="width: 18rem;">
       <img src="{{ 'assets/img/coba.jpeg' }}" class="card-img-top" alt="Game Developer">
       <div class="card-body">
         <h5 class="card-title">Game Developer</h5>
@@ -41,12 +41,12 @@
 
 {{-- Teachers Page Start --}}
 <div class="container sambutan">
-  <div class="guru mb-4">
+  <div class="guru mb-4 reveal Teacher-Text">
     <h1>Guru</h1>
   </div>
     <div class="row">
         <div class="col-lg-4 col-md-6">
-            <div class="card rounded teachers">
+            <div class="card rounded teachers reveal Teacher-card1">
                 <div class="img">
                     <img class="img-fluid rounded-top" src="{{ 'assets/img/coba.jpeg' }}" alt="">
                     <img class="rounded-circle" src="{{ 'assets/img/coba3.jpeg' }}" width="200px" height="200px" alt="">
@@ -90,7 +90,7 @@
             </div>
         </div>
         <div class="col-lg-4 col-md-6">
-            <div class="card rounded teachers">
+            <div class="card rounded teachers reveal Teacher-card2">
                 <div class="img">
                     <img class="img-fluid rounded-top" src="{{ 'assets/img/coba.jpeg' }}" alt="">
                     <img class="rounded-circle" src="{{ 'assets/img/coba3.jpeg' }}" width="200px" height="200px" alt="">
@@ -134,7 +134,7 @@
             </div>
         </div>
         <div class="col-lg-4 col-md-6">
-            <div class="card rounded teachers">
+            <div class="card rounded teachers reveal Teacher-card3">
                 <div class="img">
                     <img class="img-fluid rounded-top" src="{{ 'assets/img/coba.jpeg' }}" alt="">
                     <img class="rounded-circle" src="{{ 'assets/img/coba3.jpeg' }}" width="200px" height="200px" alt="">
@@ -294,14 +294,14 @@
 {{-- Memories Page End --}} 
 
 {{--Achievement start--}}
-<div class="judul sambutan">
+<div class="judul sambutan reveal Achv-Text">
   <h1 class="achievement">Penghargaan</h1>
 </div>
 
 <div class="container">
 	<div class="row">
 					<div class="col-md-4 d-flex justify-content-center align-items-center mb-3">
-				<div class="card penghargaan">
+				<div class="card penghargaan reveal Achv-card1">
   <img class="img-cover" src="{{'assets/img/1.jpeg'}}" alt="tidak dapat load gambar" width="100%" height="200">
   <div class="card-body">
     <p class="card-text">Sertifikat Lomba Teknik Desain Laman (Web Technologies) Juara 1 yang diperoleh Jovanko Alexandro</p>
@@ -309,7 +309,7 @@
 </div>			
 </div>
 					<div class="col-md-4 d-flex justify-content-center align-items-center mb-3">
-				<div class="card penghargaan">
+				<div class="card penghargaan reveal Achv-card1">
   <img class="img-cover" src="{{'assets/img/2.jpeg'}}" alt="tidak dapat load gambar" width="100%" height="200">
   <div class="card-body">
     <p class="card-text">Sertifikat Lomba Graphic Design Juara 1 yang diperoleh Daffa Muqsith Ismoro</p>
@@ -317,7 +317,7 @@
 </div>
 </div>
 					<div class="col-md-4 d-flex justify-content-center align-items-center mb-3">
-				<div class="card penghargaan">
+				<div class="card penghargaan reveal Achv-card1">
   <img class="img-cover" src="{{'assets/img/3.jpeg'}}" alt="tidak dapat load gambar" width="100%" height="200">
   <div class="card-body">
     <p class="card-text">Sertifikat Lomba Teknik Desain Laman (Web Technologies) Juara 3 yang diperoleh Jovanko Alexandro</p>
@@ -325,7 +325,7 @@
 </div>
 </div>
 					<div class="col-md-4 d-flex justify-content-center align-items-center mb-3">
-				<div class="card penghargaan">
+				<div class="card penghargaan reveal Achv-card2">
   <img class="img-cover" src="{{'assets/img/4.jpeg'}}" alt="tidak dapat load gambar" width="100%" height="200">
   <div class="card-body">
     <p class="card-text">Sertifikat Lomba IT Software Solution for Business Juara 1 yang diperoleh Rizqya Sanria Juliana</p>
@@ -333,7 +333,7 @@
 </div>
 </div>
 					<div class="col-md-4 d-flex justify-content-center align-items-center mb-3">
-				<div class="card penghargaan">
+				<div class="card penghargaan reveal Achv-card2">
   <img class="img-cover" src="{{'assets/img/5.jpeg'}}" alt="tidak dapat load gambar" width="100%" height="200">
   <div class="card-body">
     <p class="card-text">Sertifikat Lomba Teknologi Desain Grafis Juara 1 yang diperoleh Daffa Muqsith Ismoro</p>
@@ -382,7 +382,7 @@
     
     </div>
   </div>
-  <div class="container text-center">
+  <div class="container text-center reveal Info-Text">
     <div class="row mt-4">
       <div class="col satu">
       <strong>INFORMASI PPLG SMK TI MUHAMMADIYAH</strong>
