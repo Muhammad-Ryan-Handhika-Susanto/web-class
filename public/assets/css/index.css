@@ -145,7 +145,6 @@ li a {
 }
 
 .dua{
-    background-color: #7bbaee;
     color: white;
 }
 
@@ -321,7 +320,8 @@ li a {
     }
     .dua {
         position: absolute;
-        top: 1290%;
+        top: 1621%;
+        background-color: #7bbaee;
     }
 }
 

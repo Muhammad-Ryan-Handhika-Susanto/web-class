@@ -390,11 +390,11 @@
       <br>
   PPLG/RPL  adalah salah satu jurusan yang ada diSMK TI MUHAMMADIYAH
   <br>
-  jurusan ini sekarang sudah angkatan
+  jurusan ini sekarang sudah DELAPAN angkatan
   <br>
   <img src="{{ 'assets/img/mutu.png' }}" alt="" class="foto">
   <br>
-  <strong>LEB PPLG SMK TI MUHAMMADIYAH </strong>
+  <strong>LAB PPLG SMK TI MUHAMMADIYAH </strong>
   <br>
   <br>
   <img src="{{ 'assets/img/RPL2.jpg' }}" alt="" class="foto">
@@ -403,7 +403,7 @@
   <br>
       </div>
       <div class="col dua">
-        <strong>YANG MENGAJAR DI LEB PPLG </strong> 
+        <strong>YANG MENGAJAR DI LAB PPLG </strong> 
         <br>
         1.Pak Aulia Racman
         <br>
@@ -411,33 +411,31 @@
         <br>
         <br>
         <br>
-        <strong>TEKNISI LEB PPLG</strong>
+        <strong>TEKNISI LAB PPLG</strong>
         <br>
         Pak Akbar Nugraha Siregar
-        <link rel="stylesheet" href="<i class="fa-brands fa-instagram"></i>">
         <br>
         <br>
         <br>
-        <strong>KEGIATAN YANG ADA DI LEB PPLG</strong> 
+        <strong>KEGIATAN YANG ADA DI LAB PPLG</strong> 
         <br>
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="{{ 'assets/img/RPL3.jpg' }}" class="d-block w-100" alt="...">
+        <img src="{{ 'assets/img/PPLG2_1.jpg' }}" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
       <img src="{{ 'assets/img/RPL6.jpg' }}" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="{{ 'assets/img/RPL13.jpg' }}" class="d-block w-100" alt="...">
+        <img src="{{ 'assets/img/PPLG1_1.jpg' }}" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="{{ 'assets/img/RPL14.jpg' }}" class="d-block w-100" alt="...">
+        <img src="{{ 'assets/img/PPLG3_1.jpg' }}" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="{{ 'assets/img/RPL15.jpg' }}" class="d-block w-100" alt="...">
+        <img src="{{ 'assets/img/PPLG5.jpg' }}" class="d-block w-100" alt="...">
       </div>
-      
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
